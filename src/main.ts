@@ -12,8 +12,8 @@ async function bootstrap() {
     })
   );
 
-  await app.listen(4200);
+  await app.listen(3000);
   
-  console.log('Aplicación corriendo en puerto: ', 4200 );
+  console.log('Aplicación corriendo en puerto: ', 3000 );
 }
 bootstrap();
